@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "D:\\Code\\C#\\ProgNewsWebSite\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|d:\\code\\c#\\prognewswebsite\\prognewswebsite\\areas\\admin\\views\\pagegroups\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|solutionrelative:prognewswebsite\\areas\\admin\\views\\pagegroups\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|d:\\code\\c#\\prognewswebsite\\prognewswebsite\\areas\\admin\\views\\pagegroups\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|solutionrelative:prognewswebsite\\areas\\admin\\views\\pagegroups\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|d:\\code\\c#\\prognewswebsite\\prognewswebsite\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|d:\\code\\c#\\prognewswebsite\\prognewswebsite\\areas\\admin\\controllers\\pagegroupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|solutionrelative:prognewswebsite\\areas\\admin\\controllers\\pagegroupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|d:\\code\\c#\\prognewswebsite\\prognewswebsite\\areas\\admin\\views\\pagegroups\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|solutionrelative:prognewswebsite\\areas\\admin\\views\\pagegroups\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|d:\\code\\c#\\prognewswebsite\\prognewswebsite\\areas\\admin\\views\\pagegroups\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|solutionrelative:prognewswebsite\\areas\\admin\\views\\pagegroups\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|D:\\Code\\C#\\ProgNewsWebSite\\prognewswebsite\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|solutionrelative:prognewswebsite\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -18,11 +34,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Code\\C#\\ProgNewsWebSite\\ProgNewsWebSite\\Areas\\Admin\\Views\\PageGroups\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProgNewsWebSite\\Areas\\Admin\\Views\\PageGroups\\Delete.cshtml",
+              "ToolTip": "D:\\Code\\C#\\ProgNewsWebSite\\ProgNewsWebSite\\Areas\\Admin\\Views\\PageGroups\\Delete.cshtml",
+              "RelativeToolTip": "ProgNewsWebSite\\Areas\\Admin\\Views\\PageGroups\\Delete.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T15:25:16.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Code\\C#\\ProgNewsWebSite\\ProgNewsWebSite\\Areas\\Admin\\Views\\PageGroups\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProgNewsWebSite\\Areas\\Admin\\Views\\PageGroups\\Edit.cshtml",
+              "ToolTip": "D:\\Code\\C#\\ProgNewsWebSite\\ProgNewsWebSite\\Areas\\Admin\\Views\\PageGroups\\Edit.cshtml",
+              "RelativeToolTip": "ProgNewsWebSite\\Areas\\Admin\\Views\\PageGroups\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T15:24:08.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PageGroupsController.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\ProgNewsWebSite\\ProgNewsWebSite\\Areas\\Admin\\Controllers\\PageGroupsController.cs",
+              "RelativeDocumentMoniker": "ProgNewsWebSite\\Areas\\Admin\\Controllers\\PageGroupsController.cs",
+              "ToolTip": "D:\\Code\\C#\\ProgNewsWebSite\\ProgNewsWebSite\\Areas\\Admin\\Controllers\\PageGroupsController.cs",
+              "RelativeToolTip": "ProgNewsWebSite\\Areas\\Admin\\Controllers\\PageGroupsController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAGcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T15:23:11.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Code\\C#\\ProgNewsWebSite\\ProgNewsWebSite\\Areas\\Admin\\Views\\PageGroups\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProgNewsWebSite\\Areas\\Admin\\Views\\PageGroups\\Create.cshtml",
+              "ToolTip": "D:\\Code\\C#\\ProgNewsWebSite\\ProgNewsWebSite\\Areas\\Admin\\Views\\PageGroups\\Create.cshtml",
+              "RelativeToolTip": "ProgNewsWebSite\\Areas\\Admin\\Views\\PageGroups\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T15:19:55.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Code\\C#\\ProgNewsWebSite\\ProgNewsWebSite\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProgNewsWebSite\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
@@ -30,18 +98,17 @@
               "RelativeToolTip": "ProgNewsWebSite\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-27T15:08:05.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T15:08:05.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Code\\C#\\ProgNewsWebSite\\ProgNewsWebSite\\Areas\\Admin\\Views\\PageGroups\\Index.cshtml",
               "RelativeDocumentMoniker": "ProgNewsWebSite\\Areas\\Admin\\Views\\PageGroups\\Index.cshtml",
               "ToolTip": "D:\\Code\\C#\\ProgNewsWebSite\\ProgNewsWebSite\\Areas\\Admin\\Views\\PageGroups\\Index.cshtml",
               "RelativeToolTip": "ProgNewsWebSite\\Areas\\Admin\\Views\\PageGroups\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-27T14:34:35.563Z",
               "EditorCaption": ""
