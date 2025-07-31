@@ -10,11 +10,11 @@ namespace DataLayer
     public class ProgNewsWebSiteContext:DbContext
     {
         public ProgNewsWebSiteContext()
-            : base("Data Source=.;Initial Catalog=ProgNewsWebSite;Integrated Security=True") // Use your connection string name
+            : base("Data Source=.;Initial Catalog=ProgNewsWebSite;MultipleActiveResultSets=true;Integrated Security=True") // Use your connection string name
         {
         }
         public DbSet<PageGroup> PageGroups { get; set; }
-        public DbSet<Page> Pages { get; set; }
+        public DbSet<NewsPage> NewsPage { get; set; }
         public DbSet<PageComment> PageComments { get; set; }
 
     }

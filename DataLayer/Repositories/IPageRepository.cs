@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace DataLayer
 {
-    public interface IPageRepository
+    public interface IPageRepository:IDisposable
     {
-        IQueryable<Page> GetAllPage();
-        Page GetPageById(int pageId);
-        bool InsertPage(Page page);
-        bool DeletePage(Page page);
+        IQueryable<NewsPage> GetAllPage();
+        NewsPage GetPageById(int pageId);
+        bool InsertPage(NewsPage page);
+        bool DeletePage(NewsPage page);
         bool DeletePageById(int pageId);
-        bool UpdatePage(Page page);
+        bool UpdatePage(NewsPage page);
         void Save();
 
     }

@@ -9,7 +9,11 @@ namespace DataLayer
 {
     public class PageGroupRepository : IPageGroupRepository
     {
-        ProgNewsWebSiteContext db = new ProgNewsWebSiteContext();
+        private ProgNewsWebSiteContext db;
+        public PageGroupRepository(ProgNewsWebSiteContext context)
+        {
+            this.db = context;
+        }
 
 
 

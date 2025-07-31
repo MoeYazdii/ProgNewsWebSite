@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer
 {
-    public class Page
+    public class NewsPage
     {
         [Key]
         public int PageID { get; set; }
@@ -26,11 +26,13 @@ namespace DataLayer
         [Display(Name = "توضیح مختصر")]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
         [MaxLength(150)]
+        [DataType(DataType.MultilineText)]
         public string ShortDescription { get; set; }
 
 
         [Display(Name = "متن صفحه")]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
+        [DataType(DataType.MultilineText)]
         public string Text { get; set; }
 
 
@@ -47,13 +49,14 @@ namespace DataLayer
 
 
         [Display(Name = "تاریخ ایجاد")]
+        [DisplayFormat(DataFormatString = "{0: yyyy/MM/dd}")]
         public DateTime CreateDate { get; set; }
 
         // Relations
         public virtual PageGroup PageGroup { get; set; }
         public virtual List<PageComment> PagesComments { get; set; }
 
-        public Page()
+        public NewsPage()
         {
             
         }

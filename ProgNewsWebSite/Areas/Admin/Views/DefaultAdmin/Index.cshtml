@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<br />
+<br />
+<br />
+<h2>پنل مدیریت ادمین</h2>
+<hr class="my-4 border-2 border-primary">
+<br />
+@Html.ActionLink("قسمت دسته بندی ها", "Index","PageGroups", null, htmlAttributes: new { @class = "btn btn-primary" })
+<br />
+<br />
+@Html.ActionLink("قسمت اخبار", "Index","NewsPage", null, htmlAttributes: new { @class = "btn btn-warning" })

@@ -20,7 +20,7 @@ namespace DataLayer
 
 
         //Relations
-        public virtual List<Page> Pages { get; set; }
+        public virtual List<NewsPage> NewsPages { get; set; }
         public PageGroup()
         {
         }

@@ -12,12 +12,16 @@ namespace ProgNewsWebSite.Areas.Admin.Controllers
 {
     public class PageGroupsController : Controller
     {
-        private ProgNewsWebSiteContext db = new ProgNewsWebSiteContext();
-
+        private IPageGroupRepository pageGroupRepository;
+        ProgNewsWebSiteContext db = new ProgNewsWebSiteContext();
+        public PageGroupsController()
+        {
+            pageGroupRepository = new PageGroupRepository(db);
+        }
         // GET: Admin/PageGroups
         public ActionResult Index()
         {
-            return View(db.PageGroups.ToList());
+            return View(pageGroupRepository.GetAllGroups());
         }
 
         // GET: Admin/PageGroups/Details/5
@@ -27,7 +31,7 @@ namespace ProgNewsWebSite.Areas.Admin.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            PageGroup pageGroup = db.PageGroups.Find(id);
+            PageGroup pageGroup = pageGroupRepository.GetGroupById(id.Value);
             if (pageGroup == null)
             {
                 return HttpNotFound();
@@ -50,8 +54,8 @@ namespace ProgNewsWebSite.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.PageGroups.Add(pageGroup);
-                db.SaveChanges();
+                pageGroupRepository.InsertGroup(pageGroup);
+                pageGroupRepository.Save();
                 return RedirectToAction("Index");
             }
 
@@ -65,7 +69,7 @@ namespace ProgNewsWebSite.Areas.Admin.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            PageGroup pageGroup = db.PageGroups.Find(id);
+            PageGroup pageGroup = pageGroupRepository.GetGroupById(id.Value);
             if (pageGroup == null)
             {
                 return HttpNotFound();
@@ -82,8 +86,8 @@ namespace ProgNewsWebSite.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Entry(pageGroup).State = EntityState.Modified;
-                db.SaveChanges();
+                pageGroupRepository.UpdateGroup(pageGroup);
+                pageGroupRepository.Save();
                 return RedirectToAction("Index");
             }
             return View(pageGroup);
@@ -96,7 +100,7 @@ namespace ProgNewsWebSite.Areas.Admin.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            PageGroup pageGroup = db.PageGroups.Find(id);
+            PageGroup pageGroup = pageGroupRepository.GetGroupById(id.Value);
             if (pageGroup == null)
             {
                 return HttpNotFound();
@@ -109,9 +113,8 @@ namespace ProgNewsWebSite.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            PageGroup pageGroup = db.PageGroups.Find(id);
-            db.PageGroups.Remove(pageGroup);
-            db.SaveChanges();
+            pageGroupRepository.DeleteGroupById(id);
+            pageGroupRepository.Save();
             return RedirectToAction("Index");
         }
 
@@ -119,6 +122,7 @@ namespace ProgNewsWebSite.Areas.Admin.Controllers
         {
             if (disposing)
             {
+                pageGroupRepository.Dispose();
                 db.Dispose();
             }
             base.Dispose(disposing);

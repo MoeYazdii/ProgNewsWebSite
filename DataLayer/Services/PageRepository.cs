@@ -9,8 +9,13 @@ namespace DataLayer.Services
 {
     public class PageRepository : IPageRepository
     {
-        ProgNewsWebSiteContext db = new ProgNewsWebSiteContext();
-        public bool DeletePage(Page page)
+        private ProgNewsWebSiteContext db;
+
+        public PageRepository(ProgNewsWebSiteContext context)
+        {
+            this.db = context;
+        }
+        public bool DeletePage(NewsPage page)
         {
             try
             {
@@ -38,21 +43,26 @@ namespace DataLayer.Services
 
         }
 
-        public IQueryable<Page> GetAllPage()
+        public void Dispose()
         {
-            return db.Pages;
+            db.Dispose();
         }
 
-        public Page GetPageById(int pageId)
+        public IQueryable<NewsPage> GetAllPage()
         {
-            return db.Pages.Find(pageId);
+            return db.NewsPage;
         }
 
-        public bool InsertPage(Page page)
+        public NewsPage GetPageById(int pageId)
+        {
+            return db.NewsPage.Find(pageId);
+        }
+
+        public bool InsertPage(NewsPage page)
         {
             try
             {
-                db.Pages.Add(page);
+                db.NewsPage.Add(page);
                 return true;
             }
             catch
@@ -66,7 +76,7 @@ namespace DataLayer.Services
             db.SaveChanges();
         }
 
-        public bool UpdatePage(Page page)
+        public bool UpdatePage(NewsPage page)
         {
             try
             {

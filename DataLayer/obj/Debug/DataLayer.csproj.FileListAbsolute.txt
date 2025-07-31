@@ -12,3 +12,17 @@ D:\Code\C#\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.dll
 D:\Code\C#\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.pdb
 D:\Code\C#\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.Migrations.Initial_Db.resources
 D:\Code\C#\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.csproj.GenerateResource.cache
+D:\Code\ProgNewsWebSite\DataLayer\bin\Debug\DataLayer.dll.config
+D:\Code\ProgNewsWebSite\DataLayer\bin\Debug\DataLayer.dll
+D:\Code\ProgNewsWebSite\DataLayer\bin\Debug\DataLayer.pdb
+D:\Code\ProgNewsWebSite\DataLayer\bin\Debug\EntityFramework.dll
+D:\Code\ProgNewsWebSite\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Code\ProgNewsWebSite\DataLayer\bin\Debug\EntityFramework.xml
+D:\Code\ProgNewsWebSite\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Code\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+D:\Code\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+D:\Code\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.csproj.Up2Date
+D:\Code\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.dll
+D:\Code\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.pdb
+D:\Code\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.Migrations.Create_DB.resources
+D:\Code\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.csproj.GenerateResource.cache

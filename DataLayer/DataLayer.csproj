@@ -52,12 +52,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\ProgNewsWebSiteContext.cs" />
-    <Compile Include="Migrations\202507241225231_Initial_Db.cs" />
-    <Compile Include="Migrations\202507241225231_Initial_Db.Designer.cs">
-      <DependentUpon>202507241225231_Initial_Db.cs</DependentUpon>
+    <Compile Include="Migrations\202507310723088_Create_DB.cs" />
+    <Compile Include="Migrations\202507310723088_Create_DB.Designer.cs">
+      <DependentUpon>202507310723088_Create_DB.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\Page.cs" />
+    <Compile Include="Models\NewsPage.cs" />
     <Compile Include="Models\PageComment.cs" />
     <Compile Include="Models\PageGroup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,14 +67,13 @@
     <Compile Include="Services\PageGroupRepository.cs" />
     <Compile Include="Services\PageRepository.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202507241225231_Initial_Db.resx">
-      <DependentUpon>202507241225231_Initial_Db.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202507310723088_Create_DB.resx">
+      <DependentUpon>202507310723088_Create_DB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

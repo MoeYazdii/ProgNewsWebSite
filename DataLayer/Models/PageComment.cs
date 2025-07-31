@@ -40,7 +40,7 @@ namespace DataLayer
         public DateTime CreateDate { get; set; }
 
         //Relations
-        public Page Page { get; set; }
+        public virtual NewsPage NewsPage { get; set; }
 
         public PageComment()
         {
