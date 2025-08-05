@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Code\\ProgNewsWebSite\\",
+  "WorkspaceRootPath": "P:\\GitHubOffline\\ProgNewsWebSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|d:\\code\\prognewswebsite\\prognewswebsite\\areas\\admin\\views\\defaultadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|solutionrelative:prognewswebsite\\areas\\admin\\views\\defaultadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|d:\\code\\prognewswebsite\\prognewswebsite\\areas\\admin\\controllers\\defaultadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|solutionrelative:prognewswebsite\\areas\\admin\\controllers\\defaultadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|p:\\githuboffline\\prognewswebsite\\prognewswebsite\\views\\shared\\_defaultlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89ED8FEA-1BEC-4791-BC0D-0CA6FF1639EE}|ProgNewsWebSite\\ProgNewsWebSite.csproj|solutionrelative:prognewswebsite\\views\\shared\\_defaultlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Code\\ProgNewsWebSite\\ProgNewsWebSite\\Areas\\Admin\\Views\\DefaultAdmin\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProgNewsWebSite\\Areas\\Admin\\Views\\DefaultAdmin\\Index.cshtml",
-              "ToolTip": "D:\\Code\\ProgNewsWebSite\\ProgNewsWebSite\\Areas\\Admin\\Views\\DefaultAdmin\\Index.cshtml",
-              "RelativeToolTip": "ProgNewsWebSite\\Areas\\Admin\\Views\\DefaultAdmin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
+              "Title": "_DefaultLayout.cshtml",
+              "DocumentMoniker": "P:\\GitHubOffline\\ProgNewsWebSite\\ProgNewsWebSite\\Views\\Shared\\_DefaultLayout.cshtml",
+              "RelativeDocumentMoniker": "ProgNewsWebSite\\Views\\Shared\\_DefaultLayout.cshtml",
+              "ToolTip": "P:\\GitHubOffline\\ProgNewsWebSite\\ProgNewsWebSite\\Views\\Shared\\_DefaultLayout.cshtml",
+              "RelativeToolTip": "ProgNewsWebSite\\Views\\Shared\\_DefaultLayout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-31T08:56:59.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DefaultAdminController.cs",
-              "DocumentMoniker": "D:\\Code\\ProgNewsWebSite\\ProgNewsWebSite\\Areas\\Admin\\Controllers\\DefaultAdminController.cs",
-              "RelativeDocumentMoniker": "ProgNewsWebSite\\Areas\\Admin\\Controllers\\DefaultAdminController.cs",
-              "ToolTip": "D:\\Code\\ProgNewsWebSite\\ProgNewsWebSite\\Areas\\Admin\\Controllers\\DefaultAdminController.cs",
-              "RelativeToolTip": "ProgNewsWebSite\\Areas\\Admin\\Controllers\\DefaultAdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T08:36:39.994Z",
+              "WhenOpened": "2025-08-05T13:12:28.491Z",
               "EditorCaption": ""
             }
           ]

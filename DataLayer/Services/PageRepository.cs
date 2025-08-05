@@ -71,9 +71,19 @@ namespace DataLayer.Services
             }
         }
 
+        public IEnumerable<NewsPage> PagesInSlider()
+        {
+            return db.NewsPage.Where(p => p.ShowInSlider == true);
+        }
+
         public void Save()
         {
             db.SaveChanges();
+        }
+
+        public IEnumerable<NewsPage> TopNews(int take = 4)
+        {
+            return db.NewsPage.OrderByDescending(p => p.Visit).Take(take);
         }
 
         public bool UpdatePage(NewsPage page)

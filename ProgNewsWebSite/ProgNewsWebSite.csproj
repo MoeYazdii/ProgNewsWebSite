@@ -176,6 +176,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\NewsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -199,8 +200,8 @@
     <Content Include="Content\fonts\yekanweb.svg" />
     <Content Include="Content\img\avatar.jpg" />
     <Content Include="Content\img\bg.jpg" />
-    <Content Include="Content\img\img.jpg" />
     <Content Include="Content\img\logo.png" />
+    <Content Include="Content\img\img.jpg" />
     <Content Include="Content\img\phone.png" />
     <Content Include="Content\img\refresh.png" />
     <Content Include="Content\img\sprite.png" />
@@ -287,6 +288,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_DefaultLayout.cshtml" />
+    <Content Include="Views\News\ShowGroups.cshtml" />
+    <Content Include="Views\News\ShowGroupInMenu.cshtml" />
+    <Content Include="Views\News\TopNews.cshtml" />
+    <Content Include="Views\Home\Slider.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

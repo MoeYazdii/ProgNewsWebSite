@@ -53,6 +53,17 @@ namespace DataLayer
             return db.PageGroups.Find(groupId);
         }
 
+        public IEnumerable<ShowGroupsViewModels> GetGroupsForView()
+        {
+            return db.PageGroups.Select(g => new ShowGroupsViewModels()
+            {
+                GroupID = g.GroupID,
+                GroupTitle = g.GroupTitle,
+                PageCount = g.NewsPages.Count()
+
+            });
+        }
+
         public bool InsertGroup(PageGroup pageGroup)
         {
             try

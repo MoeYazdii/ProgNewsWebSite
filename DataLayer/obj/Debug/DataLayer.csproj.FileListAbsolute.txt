@@ -26,3 +26,17 @@ D:\Code\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.dll
 D:\Code\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.pdb
 D:\Code\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.Migrations.Create_DB.resources
 D:\Code\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.csproj.GenerateResource.cache
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\DataLayer.dll.config
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\DataLayer.dll
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\DataLayer.pdb
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\EntityFramework.dll
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\EntityFramework.xml
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.Migrations.Create_DB.resources
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.csproj.GenerateResource.cache
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.csproj.Up2Date
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.dll
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.pdb

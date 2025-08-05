@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DataLayer;
+using DataLayer.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +10,12 @@ namespace ProgNewsWebSite.Controllers
 {
     public class HomeController : Controller
     {
+        ProgNewsWebSiteContext db = new ProgNewsWebSiteContext();
+        private IPageRepository pageRepository;
+        public HomeController()
+        {
+            pageRepository = new PageRepository(db);
+        }
         public ActionResult Index()
         {
             return View();
@@ -25,6 +33,11 @@ namespace ProgNewsWebSite.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ActionResult Slider()
+        {
+            return PartialView(pageRepository.PagesInSlider());
         }
     }
 }
