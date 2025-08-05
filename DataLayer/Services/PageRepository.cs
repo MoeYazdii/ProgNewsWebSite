@@ -71,6 +71,11 @@ namespace DataLayer.Services
             }
         }
 
+        public IEnumerable<NewsPage> LastNewsReturn(int take = 4)
+        {
+            return db.NewsPage.OrderByDescending(p => p.CreateDate).Take(take);
+        }
+
         public IEnumerable<NewsPage> PagesInSlider()
         {
             return db.NewsPage.Where(p => p.ShowInSlider == true);
@@ -79,6 +84,11 @@ namespace DataLayer.Services
         public void Save()
         {
             db.SaveChanges();
+        }
+
+        public IEnumerable<NewsPage> ShowPageByGroupId(int GroupId)
+        {
+            return db.NewsPage.Where(p => p.GroupID == GroupId);
         }
 
         public IEnumerable<NewsPage> TopNews(int take = 4)

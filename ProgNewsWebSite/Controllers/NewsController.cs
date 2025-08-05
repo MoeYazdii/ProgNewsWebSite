@@ -34,5 +34,20 @@ namespace ProgNewsWebSite.Controllers
         {
             return PartialView(pageRepository.TopNews());
         }
+        public ActionResult LastNews()
+        {
+            return PartialView(pageRepository.LastNewsReturn());
+        }
+        [Route("Archive")]
+        public ActionResult ArchiveNews()
+        {
+            return View(pageRepository.GetAllPage());
+        }
+        [Route("Group/{id}/{title}")]
+        public ActionResult ShowNewsByGroupId(int id , string title)
+        {
+            ViewBag.name = title;
+            return View(pageRepository.ShowPageByGroupId(id));
+        }
     }
 }
