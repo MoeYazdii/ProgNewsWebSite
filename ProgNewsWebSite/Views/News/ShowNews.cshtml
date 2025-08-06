@@ -95,7 +95,7 @@
 <script>
     
     function addComment() {
-        $.ajex({
+        $.ajax({
             url: "/News/AddComment/@Model.PageID",
             type: "Get",
             data: { name: $("#txtName").val(), email: $("#txtEmail").val(), comment: $("#txtComment").val() }
