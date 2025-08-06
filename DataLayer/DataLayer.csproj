@@ -64,6 +64,7 @@
     <Compile Include="Repositories\IPageCommentRepotistory.cs" />
     <Compile Include="Repositories\IPageGroupRepository.cs" />
     <Compile Include="Repositories\IPageRepository.cs" />
+    <Compile Include="Services\PageCommentRepository.cs" />
     <Compile Include="Services\PageGroupRepository.cs" />
     <Compile Include="Services\PageRepository.cs" />
     <Compile Include="ViewModels\ShowGroupsViewModels.cs" />
