@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Web.Mvc;
 namespace DataLayer
 {
     public class NewsPage
@@ -33,6 +33,7 @@ namespace DataLayer
         [Display(Name = "متن صفحه")]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
         [DataType(DataType.MultilineText)]
+        [AllowHtml]
         public string Text { get; set; }
 
 

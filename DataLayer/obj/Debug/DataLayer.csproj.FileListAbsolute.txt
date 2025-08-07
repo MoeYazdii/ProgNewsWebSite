@@ -42,3 +42,15 @@ P:\GitHubOffline\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.dll
 P:\GitHubOffline\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.pdb
 P:\GitHubOffline\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.Migrations.Add_tags_pages.resources
 P:\GitHubOffline\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.Migrations.add_admin_login.resources
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\System.Web.Mvc.dll
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\System.Web.Razor.dll
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\System.Web.WebPages.Razor.dll
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\System.Web.WebPages.dll
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\Microsoft.Web.Infrastructure.dll
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\System.Web.WebPages.Deployment.dll
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\System.Web.Mvc.xml
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\System.Web.Razor.xml
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\System.Web.WebPages.Razor.xml
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\System.Web.WebPages.xml
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\Microsoft.Web.Infrastructure.xml
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\bin\Debug\System.Web.WebPages.Deployment.xml
