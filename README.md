@@ -1,4 +1,5 @@
 📰 Persian Tech Weblog for Programmers
+
 A Persian-language weblog built with .NET Framework 4.5.1, SQL Server 2022, and Bootstrap, designed to keep programmers and tech enthusiasts up-to-date with the latest in software development, emerging technologies, and industry news — all in Farsi.
 ⚙️ Tech Stack
 - Backend: ASP.NET Framework 4.5.1
