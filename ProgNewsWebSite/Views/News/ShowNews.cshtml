@@ -25,14 +25,17 @@
         </p>
     </article>
 </section>
-<div class="keywords border-radius">
-    <a href=""> کلمات کلیدی </a>
-    <a href=""> کلمات کلیدی </a>
-    <a href=""> کلمات کلیدی </a>
-    <a href=""> کلمات کلیدی </a>
-    <a href=""> کلمات کلیدی </a>
-    <a href=""> کلمات کلیدی </a>
-</div>
+
+@if (Model.Tags != null)
+{
+    <div class="keywords border-radius">
+        @foreach (var item in Model.Tags.Split(','))
+        {
+            <a href="/Search?q=@item"> @item </a>
+        }
+    </div>
+}
+
 
 <section class="comment-layer">
     <header> <i class="fa fa-comments"></i><h5> دیدگاه کاربران </h5><span> @Model.PagesComments.Count دیدگاه </span> </header>
@@ -51,13 +54,13 @@
             <input placeholder=" ایمیل خود را وارد نمایید " type="email" id="txtEmail">
         </div>
         <textarea placeholder=" متن دیدگاه" id="txtComment"> </textarea>
-        <input  value="ثبت دیدگاه ارزشمند شما " type="button" style="width: 100%; border: 0; padding: 5px; color: #fff; background-color: #0EB501; line-height: 30px;" onclick="addComment()">
+        <input value="ثبت دیدگاه ارزشمند شما " type="button" style="width: 100%; border: 0; padding: 5px; color: #fff; background-color: #0EB501; line-height: 30px;" onclick="addComment()">
     </form>
 </section>
 
 
 <script>
-    
+
     function addComment() {
         $.ajax({
             url: "/News/AddComment/@Model.PageID",

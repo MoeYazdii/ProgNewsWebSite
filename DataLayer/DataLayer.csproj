@@ -56,6 +56,10 @@
     <Compile Include="Migrations\202507310723088_Create_DB.Designer.cs">
       <DependentUpon>202507310723088_Create_DB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202508071256403_Add_tags_pages.cs" />
+    <Compile Include="Migrations\202508071256403_Add_tags_pages.Designer.cs">
+      <DependentUpon>202508071256403_Add_tags_pages.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\NewsPage.cs" />
     <Compile Include="Models\PageComment.cs" />
@@ -76,6 +80,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202507310723088_Create_DB.resx">
       <DependentUpon>202507310723088_Create_DB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202508071256403_Add_tags_pages.resx">
+      <DependentUpon>202508071256403_Add_tags_pages.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataLayer.Services
+namespace DataLayer
 {
     public class PageRepository : IPageRepository
     {
@@ -84,6 +84,12 @@ namespace DataLayer.Services
         public void Save()
         {
             db.SaveChanges();
+        }
+
+        public IEnumerable<NewsPage> SearchPage(string search)
+        {
+            return db.NewsPage.Where(p => p.Title.Contains(search) || p.ShortDescription.Contains(search)
+            || p.Text.Contains(search) || p.Tags.Contains(search)).Distinct(); //distinct to avoid duplicates
         }
 
         public IEnumerable<NewsPage> ShowPageByGroupId(int GroupId)

@@ -40,3 +40,4 @@ P:\GitHubOffline\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.csproj.CoreCompil
 P:\GitHubOffline\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.csproj.Up2Date
 P:\GitHubOffline\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.dll
 P:\GitHubOffline\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.pdb
+P:\GitHubOffline\ProgNewsWebSite\DataLayer\obj\Debug\DataLayer.Migrations.Add_tags_pages.resources

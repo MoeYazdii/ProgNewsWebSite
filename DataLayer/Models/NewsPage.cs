@@ -52,6 +52,9 @@ namespace DataLayer
         [DisplayFormat(DataFormatString = "{0: yyyy/MM/dd}")]
         public DateTime CreateDate { get; set; }
 
+        [Display(Name = "کلمات کلیدی")]
+        public string Tags { get; set; }
+
         // Relations
         public virtual PageGroup PageGroup { get; set; }
         public virtual List<PageComment> PagesComments { get; set; }

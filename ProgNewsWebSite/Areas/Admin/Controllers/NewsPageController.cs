@@ -1,5 +1,4 @@
 ﻿using DataLayer;
-using DataLayer.Services;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -58,7 +57,7 @@ namespace ProgNewsWebSite.Areas.Admin.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "PageID,GroupID,Title,ShortDescription,Text,Visit,ImageName,ShowInSlider,CreateDate")] NewsPage page,HttpPostedFileBase imgUp)
+        public ActionResult Create([Bind(Include = "PageID,GroupID,Title,ShortDescription,Text,Visit,ImageName,ShowInSlider,CreateDate,Tags")] NewsPage page,HttpPostedFileBase imgUp)
         {
             if (ModelState.IsValid)
             {
@@ -100,7 +99,7 @@ namespace ProgNewsWebSite.Areas.Admin.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "PageID,GroupID,Title,ShortDescription,Text,Visit,ImageName,ShowInSlider,CreateDate")] NewsPage page , HttpPostedFileBase imgUp)
+        public ActionResult Edit([Bind(Include = "PageID,GroupID,Title,ShortDescription,Text,Visit,ImageName,ShowInSlider,CreateDate,Tags")] NewsPage page , HttpPostedFileBase imgUp)
         {
             if (ModelState.IsValid)
             {
