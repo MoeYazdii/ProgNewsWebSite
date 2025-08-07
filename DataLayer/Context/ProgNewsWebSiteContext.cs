@@ -16,6 +16,7 @@ namespace DataLayer
         public DbSet<PageGroup> PageGroups { get; set; }
         public DbSet<NewsPage> NewsPage { get; set; }
         public DbSet<PageComment> PageComments { get; set; }
+        public DbSet<AdminLogin> AdminLogin { get; set; }
 
     }
 }

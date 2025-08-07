@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace ProgNewsWebSite.Areas.Admin.Controllers
 {
+    [Authorize]
     [RouteArea("Admin")]
     public class DefaultAdminController : Controller
     {

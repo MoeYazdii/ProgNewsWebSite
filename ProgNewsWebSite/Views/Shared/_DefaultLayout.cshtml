@@ -66,10 +66,19 @@
             <ul>
                 <li><a href="/"> صفحه اصلی </a></li>
                 <li><a href="/Archive"> آرشیو خبرها </a></li>
-                <li><a href=""> ثبت نام </a></li>
-                <li><a href=""> ورود به سایت </a></li>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <li><a href=""> خوش آمدید @User.Identity.Name </a></li>
+                    <li><a href="/Admin"> پنل مدیریت محتوا</a></li>
+                    <li><a href="/Account/SignOut"> خروج از اکانت </a></li>
+                }
+                else
+                {
+
+                    <li><a href="/Account/Login"> ورود به سایت </a></li>
+                }
                 <li>
-                    @Html.Action("ShowGroupInMenu","News")
+                    @Html.Action("ShowGroupInMenu", "News")
                 </li>
             </ul>
         </div>
@@ -81,10 +90,10 @@
 
             <aside class="col-md-4 col-sm-12 col-xs-12 pull-right">
 
-                @Html.Action("ShowGroups","News")
-                
+                @Html.Action("ShowGroups", "News")
+
                 <!-- most views news -->
-                @Html.Action("TopNews","News")
+                @Html.Action("TopNews", "News")
                 <!-- end most views news -->
             </aside>
 
@@ -92,7 +101,6 @@
             <div class="col-md-8 col-sm-12 col-xs-12 ">
 
                 <!-- slider -->
-
                 <!-- End slider -->
                 @RenderBody()
             </div>
@@ -137,5 +145,6 @@
     <script src="/Content/js/bootstrap.min.js"></script>
     <script src="/Content/js/owl.carousel.js"></script>
     <script src="/Content/js/script.js"></script>
+    @RenderSection("Scripts", false)
 </body>
 </html>

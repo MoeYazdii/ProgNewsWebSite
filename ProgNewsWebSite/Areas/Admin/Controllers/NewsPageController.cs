@@ -12,6 +12,7 @@ using System.Web.UI;
 
 namespace ProgNewsWebSite.Areas.Admin.Controllers
 {
+    [Authorize]
     public class NewsPageController : Controller
     {
         private IPageRepository pageRepository;

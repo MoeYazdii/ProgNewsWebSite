@@ -10,6 +10,7 @@ using DataLayer;
 
 namespace ProgNewsWebSite.Areas.Admin.Controllers
 {
+    [Authorize]
     public class PageGroupsController : Controller
     {
         private IPageGroupRepository pageGroupRepository;
