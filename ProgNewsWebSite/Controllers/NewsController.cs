@@ -80,7 +80,13 @@ namespace ProgNewsWebSite.Controllers
             };
 
             pageCommentRepotistory.AddComment(addedComment);
-            return null;
+
+            return PartialView("ShowComments",pageCommentRepotistory.GetCommentsByNewsId(id));
+        }
+
+        public ActionResult ShowComments(int id)
+        {
+            return PartialView(pageCommentRepotistory.GetCommentsByNewsId(id));
         }
     }
 }

@@ -35,48 +35,12 @@
 </div>
 
 <section class="comment-layer">
-    <header> <i class="fa fa-comments"></i><h5> دیدگاه کاربران </h5><span> 25 دیدگاه </span> </header>
-    <ul>
+    <header> <i class="fa fa-comments"></i><h5> دیدگاه کاربران </h5><span> @Model.PagesComments.Count دیدگاه </span> </header>
+    <ul id="commentList">
         <!-- start each comment -->
-        <li>
-            <img src="/Content/img/thumb.png">
-            <div>
-                <span> میترا رحیمی </span>
-                <span> 25 اردیبهشت 1395 </span>
-            </div>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون ولورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و</p>
-        </li>
+        @Html.Action("ShowComments")
         <!-- end each comment -->
-        <!-- start each comment -->
-        <li>
-            <img src="/Content/img/thumb.png">
-            <div>
-                <span> میترا رحیمی </span>
-                <span> 25 اردیبهشت 1395 </span>
-            </div>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون ولورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و</p>
-        </li>
-        <!-- end each comment -->
-        <!-- start each comment -->
-        <li>
-            <img src="/Content/img/thumb.png">
-            <div>
-                <span> میترا رحیمی </span>
-                <span> 25 اردیبهشت 1395 </span>
-            </div>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون ولورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و</p>
-        </li>
-        <!-- end each comment -->
-        <!-- start each comment -->
-        <li>
-            <img src="/Content/img/thumb.png">
-            <div>
-                <span> میترا رحیمی </span>
-                <span> 25 اردیبهشت 1395 </span>
-            </div>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون ولورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و</p>
-        </li>
-        <!-- end each comment -->
+
     </ul>
 
 
@@ -99,10 +63,12 @@
             url: "/News/AddComment/@Model.PageID",
             type: "Get",
             data: { name: $("#txtName").val(), email: $("#txtEmail").val(), comment: $("#txtComment").val() }
-        }).done(function () {
-            $("#txtName").val(""),
-                $("#txtEmail").val(""),
-                $("#txtComment").val("")
+        }).done(function (result) {
+
+            $("#commentList").html(result);
+            $("#txtName").val("");
+            $("#txtEmail").val("");
+            $("#txtComment").val("");
         });
     }
 
